@@ -1,0 +1,64 @@
+nav{
+    width: 100%;
+    /* background: #565353; */
+    color: rgb(255, 255, 255);
+    padding: 4px 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+    margin: 0;
+}
+
+.logo{
+    width: 150px;
+    
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 5px 20px;
+    font-size: 15px;
+    justify-content: center;
+    flex-grow: 1;
+
+}
+
+.search-container {
+    position: relative;
+}
+
+.search-bar {
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 5px 5px 5px 5px; /* Removed negative padding */
+    color: white;
+}
+
+.search-icon {
+    position: absolute;
+    right: 10px; /* Adjusted to reduce gap */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px;
+    filter: invert(1); /* Makes the icon white */
+}
+
+
+
+.dark-nav {
+    background: rgba(98, 88, 88, 0.9); /* Adjust alpha value for transparency */
+    transition: 0.5s;
+}
+
+
+/* ---------media query ----- */
+
+@media (max-width: 1000px){
+    
+}

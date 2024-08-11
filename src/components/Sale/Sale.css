@@ -1,0 +1,12 @@
+.sale-container{
+    width:70%;
+    min-height: 100vh;
+    background: url(../../assets/b1.jpg);
+    background-size: cover;
+    background-position: center;
+    color: aliceblue;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
